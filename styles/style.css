@@ -12,3 +12,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* navbar styles */
+.bg-color{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.brand{
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: rgb(230, 83, 60);
+  
+}
+.navbar{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}  
+.nav-links{
+  display: flex;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 400; 
+  font-size: 1.12rem;
+  color: rgb(255, 255, 255); 
+
+} 
+.btn-primary{
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px;
+  border-radius: 35px;
+  border: none;
+  background: rgb(230, 83, 60);
+}
