@@ -51,3 +51,6 @@
   border: none;
   background: rgb(230, 83, 60);
 }
+.nav-hamburger-menu{
+  display: none;
+}
