@@ -13,5 +13,13 @@
     .run-extra-img-section img{
         width: 100%;
     }
+    .habits-section{
+        flex-direction: column;
+     }
+     .movement-images-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+     }
+
 }
 

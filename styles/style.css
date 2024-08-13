@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -14,7 +14,7 @@
 }
 /* navbar styles */
 .bg-color{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgb(119, 119, 119) 100%);
 }
 .brand{
   font-weight: 800;
@@ -55,6 +55,172 @@
   display: none;
 }
 /* navbar styles end */
+/* banner section css start here */
+.banner-section{
+  max-width: 1200px;
+  min-height: 400px;
+  margin: 0 auto;
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+}
+.banner-text-container{
+  width: 70%;
+  border: 2px solid red;
+}
+.banner-img-container{
+  /* background: url(../images/Images\ 2.png); */
+  /* width: 30%; */
+  border: 2px solid red;
+}
+.banner-img-container img{
+  width: 100%;
+  min-height: 400px; 
+ } 
+.banner-header-section{
+  font-weight: 900;
+  font-size: 4.88rem;
+  color: rgb(255, 255, 255);
+  margin: 28px 0px; 
+}
+
+.shape-styles{
+  font-weight: 400;
+  font-size: 5.88rem;
+  font-family: 'Miama', sans-serif;
+                                                
+                                                
+}
+.fitness-content{
+  font-weight: 400;
+  font-size: 0.89rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 28px 0px;
+}
+.banner-btn-1{
+  font-weight: 600;
+  font-size: 0.89rem;
+  margin: 0px 14px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(230, 83, 60);
+  border: none;
+}
+.banner-btn-2{
+  font-weight: 600;
+  font-size: 0.89rem;
+  margin: 0px 14px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  background-color: black;
+}
+.fitness-button-1{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+
+}
+.fitness{
+  width: 200px;
+  height: 94px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 14px;
+  
+  
+  
+}
+.fitness-2{
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background-color: rgba(230, 83, 60);
+  
+  
+}
+.header-option{
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: rgb(250, 250, 249);
+ 
+  
+ 
+}
+.video-tutorial{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+    
+}   
+
+/* Change Your Habits section */
+.habits-section{
+  max-width: 1200px;
+  min-height: 450px;
+  margin: 0 auto;
+  border: 2px solid red;
+  text-align: center; 
+  margin-top: 100px;
+ 
+}
+.habits-text-section{
+ 
+
+}
+
+.text-section{
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 14px 0px;
+}
+.habits-pragraph-section{
+  font-weight: 400;
+  font-size: 0,88px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 14px, 0px;
+}
+.movement-images-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 50px;
+}
+.habits-image-section{
+ display: flex;
+ flex-direction: column;
+ justify-content: center ;
+ align-items: center;
+ text-align: center;
+ 
+.movement-container{
+  margin-top: 30px;
+}  
+
+}
+.movement{
+font-weight: 600;
+font-size: 1.13rem;
+color: rgb(255, 255, 255);
+margin: 5px 0px;
+}
+.movement-section{
+  font-weight: 400;
+  font-size: 0.88rem;
+  color: rgb(255, 255, 255);
+  margin: 5px 0px;
+
+}
+.movement-img-section img{
+  border-radius: 50%;
+}
+
 /* Run an Extra Mile Easily section */
 .main-section{
   max-width: 1200px;
@@ -67,6 +233,7 @@
   background-color: rgb(34, 34, 34);
   padding: 30px;
   border-radius: 18px;
+  margin-top: 100px;
 }
 .run-extra-text-section{
   width: 60%;
