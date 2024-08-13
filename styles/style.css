@@ -60,34 +60,35 @@
   max-width: 1200px;
   min-height: 400px;
   margin: 0 auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 .banner-text-container{
   width: 70%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .banner-img-container{
-  /* background: url(../images/Images\ 2.png); */
-  /* width: 30%; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  position: relative;
 }
 .banner-img-container img{
   width: 100%;
-  min-height: 400px; 
+  min-height: auto; 
  } 
 .banner-header-section{
   font-weight: 900;
   font-size: 4.88rem;
   color: rgb(255, 255, 255);
-  margin: 28px 0px; 
+  margin: 28px 0px;  
 }
 
 .shape-styles{
   font-weight: 400;
   font-size: 5.88rem;
   font-family: 'Miama', sans-serif;
+  letter-spacing: 6%;
                                                 
                                                 
 }
@@ -95,7 +96,7 @@
   font-weight: 400;
   font-size: 0.89rem;
   color: rgba(255, 255, 255, 0.5);
-  margin: 28px 0px;
+  margin: 28px 0px; 
 }
 .banner-btn-1{
   font-weight: 600;
@@ -117,11 +118,8 @@
   border: 1px solid rgb(255, 255, 255);
   background-color: black;
 }
-.fitness-button-1{
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.1);
 
-}
+
 .fitness{
   width: 200px;
   height: 94px;
@@ -132,10 +130,34 @@
   align-items: center;
   padding: 20px;
   border-radius: 14px;
-  
-  
-  
+  position: absolute;
+  margin-top: -175px;
+  margin-left: -100px;
+
+} 
+.fitness-1{
+  width: 195px;
+  height: 99px;
+  /* border: 1px solid white; */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 17px 40px 41px 24px;
+  border-radius: 12px;
+  position: absolute;
+  margin-left: 215px;
+  margin-top: 110px;
 }
+.workout-text{
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+.workout-videos{
+  font-weight: 400;
+  font-size: 0.81rem;
+  color: rgb(255, 255, 255);
+}
+  
+  
 .fitness-2{
   width: 40px;
   height: 40px;
@@ -163,18 +185,13 @@
 /* Change Your Habits section */
 .habits-section{
   max-width: 1200px;
-  min-height: 450px;
+  min-height: 450px; 
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center; 
   margin-top: 100px;
  
 }
-.habits-text-section{
- 
-
-}
-
 .text-section{
   font-weight: 900;
   font-size: 3rem;
@@ -220,7 +237,7 @@ margin: 5px 0px;
 .movement-img-section img{
   border-radius: 50%;
 }
-
+/* Change Your Habits section end*/
 /* Run an Extra Mile Easily section */
 .main-section{
   max-width: 1200px;
@@ -272,4 +289,50 @@ margin: 5px 0px;
 }
 .color{
   background-color: rgba(0, 0, 0);
+}
+/* Run an Extra Mile Easily section end */
+/* Meet Our Team section start here */
+.team-section{
+  max-width: 1200px;
+  /* min-height: 780px; */
+  margin: 0 auto;
+  border: 2px solid red;
+  text-align: center;
+  
+  
+}
+.meet-team{
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 14px 0px;
+}
+.meet-our-team{
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.78rem;
+}
+.team-image-container{
+  width: 400px;
+  height: 300px;
+  border:2px solid green;
+  position: relative;
+  
+}
+.team-image-container img{
+  width: 100%;
+}
+.team-men-name{
+  color: rgb(255, 255, 255);
+}
+
+.centered-text{
+  position: absolute;
+  bottom: 1px;
+  left: 10px;
+
+}
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
