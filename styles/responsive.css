@@ -26,6 +26,15 @@
     .run-extra-img-section img{
         width: 100%;
     }
+    /*  Meet Our Team section */
+    .team-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
    
 
 }
