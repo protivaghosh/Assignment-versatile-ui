@@ -11,6 +11,10 @@
         flex-direction: column;
         text-align: center;
     }
+    /* unique-section start here */
+    .unique-section{
+        flex-direction: column;
+    }
      /* Change Your Habits section */
      .habits-section{
         flex-direction: column;

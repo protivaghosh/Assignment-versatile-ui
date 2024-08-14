@@ -183,7 +183,75 @@
     font-size: 1rem;
     color: rgba(239, 237, 232, 0.65);
     
-}   
+}
+
+/* unique section start here*/
+.unique-section{
+  max-width: 1200px;
+  height: 800px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.unique{
+  flex-basis: 50%;
+}
+.unique-fitness{
+  color: rgb(255, 255, 255);
+  
+  font-size: 5rem;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: 0.69rem;
+  /* line-height: 15px; */
+}
+.explore-button{
+   width: 180px;
+   background-color: #000;
+   font-size: 12px;
+   padding: 12px 0px;
+   background-color: rgb(255, 255, 255);
+   border: 0;
+   border-radius: 20px;
+   outline: none;
+   margin-top: 30px;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+
+}
+.card-1{
+  background-image: url(../images/exercise1.jpg);
+}
+.card-2{
+  background-image: url(../images/exercise2.png);
+}
+.card-3{
+  background-image: url(../images/exercise3.png);
+}
+.card-4{
+  background-image: url(../images/exercise4.png);
+}
+.exercise{
+  color: rgb(17, 17, 17);
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+/* unique section end here */
 
 /* Change Your Habits section */
 .habits-section{
