@@ -26,6 +26,10 @@
     .run-extra-img-section img{
         width: 100%;
     }
+    /* BMI Calculator section */
+    .bmi-calculator-chart{
+        flex-direction: column;
+    }
     /*  Meet Our Team section */
     .team-section{
         flex-direction: column;
