@@ -16,6 +16,7 @@
 .bg-color{
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgb(119, 119, 119) 100%);
 }
+
 .brand{
   font-weight: 800;
   font-size: 2.25rem;
@@ -53,6 +54,7 @@
 }
 .nav-hamburger-menu{
   display: none;
+  color: rgb(255, 255, 255);
 }
 /* navbar styles end */
 /* banner section css start here */
@@ -86,9 +88,10 @@
 
 .shape-styles{
   font-weight: 400;
-  font-size: 5.88rem;
+  font-size: 8.5rem;
   font-family: 'Miama', sans-serif;
-  letter-spacing: 6%;
+  /* letter-spacing: 6%; */
+  position: relative;
                                                 
                                                 
 }
@@ -291,6 +294,73 @@ margin: 5px 0px;
   background-color: rgba(0, 0, 0);
 }
 /* Run an Extra Mile Easily section end */
+/* BMI Calculator section start here */
+.bmi-calculator{
+  max-width: 100%;
+  min-height: 780px;
+  border: 2px solid red;
+  
+  
+}
+.calculator-section{
+  width: 650px;
+  height: 120px;
+  border: 2px solid green;
+  
+  
+}  
+.claculator{
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 14px 0px;
+  color:rgb(255, 255, 255);
+}
+.claculator-1{
+  font-weight: 400;
+  font-size: 0.88rem;
+  margin: 14px 0px;
+  color: rgba(255, 255, 255, 0.5)
+} 
+.table{
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+} 
+.bmi-calculator-chart{
+  display: flex;
+  border-color: rgb(34, 34, 34);
+}
+.calculator-chart-1{
+  width: 50%;
+}
+.calculator-chart-2{
+ width: 50%;
+ border: 2px solid green;
+}
+table,th,td{
+  width: 310px;
+  /* height: 216px; */
+  font-weight: 400;
+  font-size: 0.88rem;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid green;
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+}
+#bmi-table{
+  font-weight: 500;
+  font-size: 0.88rem;
+  color: rgb(255, 255, 255);
+}
+.from-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.text{
+  
+}
+/* BMI Calculator section end here */
 /* Meet Our Team section start here */
 .team-section{
   max-width: 1200px;
@@ -340,4 +410,77 @@ margin: 5px 0px;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin-top: 70px;
+}
+
+
+
+
+/* footer section */
+.footer-section{
+  max-width: 100%;
+  /* min-height: 488px;  */
+  /* border: 2px solid red;  */
+  background-color: rgba(255, 255, 255, 0.1);
+  
+  margin-top: 100px; 
+  padding: 66px 191px 174px 190px; 
+  /* position: relative; */
+  
+  
+}
+.footer-teams{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 66px 191px 174px 190px;  */
+  
+}
+.footer-container-1{
+     
+}    
+.footer-container-2{
+   
+}
+
+.footer-fitness{
+  font-weight: 800;
+  font-size: 4.38rem;
+  margin: 20px 0px;
+  color:rgb(230, 83, 60)
+}
+.footer-fitness-2{
+  font-weight: 400;
+  font-size: 0.88rem;
+  margin: 20px 0px;
+  color: rgba(255, 255, 255, 0.5)
+}
+.get-started{
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 39px 0px;
+  color: rgb(255, 255, 255);
+}
+.footer-service{
+  font-weight: 400;
+  font-size: 1.43rem;
+  margin: 0px 10px;
+  color:rgb(255, 255, 255, 0.5);
+}
+hr{
+  width: 80%;
+  border: 0;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.1);
+  margin: 50px auto;
+  /* position: absolute; */
+/* bottom: 100px;  */
+  /* right: 100px;  */
+  
+}
+.all-right{
+  width: 80%;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
