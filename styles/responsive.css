@@ -1,67 +1,140 @@
-@media screen and (max-width: 576px) {
-    /*navbar section  */
-    .nav-hamburger-menu{
-        display: block;
-    }
-    .nav-links{
-        display: none;
-    }
-    /* banner section */
-    .banner-section{
-        flex-direction: column;
-        text-align: center;
-    }
-    /* unique-section start here */
-    .unique-section{
-        flex-direction: column;
-    }
-     /* Change Your Habits section */
-     .habits-section{
-        flex-direction: column;
-     }
-     .movement-images-container{
-        grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
-     }
-    /* Run an Extra Mile Easily section */
-    .main-section{
-        flex-direction: column;
-    }
-    .run-extra-img-section img{
-        width: 100%;
-    }
-    /* BMI Calculator section */
-    .bmi-calculator-chart{
-        flex-direction: column;
-    }
-    /*  Meet Our Team section */
-    .team-section{
-        flex-direction: column;
-        text-align: center;
-    }
-    .team-img-container{
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-    }
-    /* footer section */
-    .footer-teams, footer-section{
-        
-        flex-direction: column;
-        /* align-items: flex-start; */
-    }
-    .all-right{
-        font-weight: 100;
-        font-size: 0.88rem;
-        letter-spacing: normal;
-    }
-    .footer-service{
-        font-weight: 200;
-        font-size: 1rem;
-    }
-    hr{
-        width: 100%;
-    }
-   
-
+@media screen and (max-width: 576px){
+/*navbar section  */
+.nav-hamburger-menu{
+    display: block;
 }
+.nav-links{
+    display: none;
+}
+/* banner section */
+.banner-section{
+    flex-direction: column;
+    
+}
+.banner-text-container{
+    width: 100%;
+}
+.banner-header-section{
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+     
+}
+.fitness-content{
+    font-weight: 400;
+    font-size: 0.70rem;
+    color: rgba(255, 255, 255, 0.5);
+   
+  }
+  .banner-btn-1{
+    margin: 0px;
+  }
+  .banner-btn-2{
+    margin: 0px;
+  }
+  .banner-img-container img{
+    width: 100%;
+     
+   }
+   .fitness-1{
+    margin-left: 200px;
+    margin-top: 110px;
+   }
+   .fitness{
+    margin-left: -70px;
+   }
+   .fitness-2{
+    width: 30px;
+    height: 30px;
+    }          
+/* unique-section start here */
+.unique-section{
+    flex-direction: column;
+    display: block;
+}
+ /* Change Your Habits section */
+ .habits-section{
+    flex-direction: column;
+ }
+ .movement-images-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+ }
+/* Run an Extra Mile Easily section */
+.main-section{
+    flex-direction: column;
+}
+.run-extra-img-section img{
+    width: 100%;
+}
+/* BMI Calculator section */
+.bmi-calculator-chart{
+    flex-direction: column;
+    padding: 20px;
+}
+.calculator-chart-1{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+ .calculator-chart-2{
+    width: 100%;
+ }
+ input[type="text"] {
+    width: 190px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+  } 
+  .text-4>select {
+    width: 190px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(119, 119, 119);
+    
+  }
+  .text-5>select {
+    width: 380px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(119, 119, 119);
+  }
+
+/*  Meet Our Team section */
+.team-section{
+    flex-direction: column;
+    text-align: center;
+}
+.team-img-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+/* footer section */
+.footer-teams{
+    
+    flex-direction: column;
+    
+}
+
+.footer-service{
+    font-weight: 200;
+    font-size: 1rem;
+}
+hr{
+    width: 100%;
+}
+.footer-section{
+   height: 100%;
+}
+
+} 
+    
+
 
